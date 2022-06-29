@@ -1,0 +1,22 @@
+.gridGaleria{  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Trimmed-Beard Ducktail Beardstache"
+      "Garibaldi-Beard Beard-Fade Bandholz";
+  }
+  
+  .Trimmed-Beard { grid-area: Trimmed-Beard; }
+  
+  .Ducktail { grid-area: Ducktail; }
+  
+  .Beardstache { grid-area: Beardstache; }
+  
+  .Garibaldi-Beard { grid-area: Garibaldi-Beard; }
+  
+  .Beard-Fade { grid-area: Beard-Fade; }
+  
+  .Bandholz { grid-area: Bandholz; }
+  
