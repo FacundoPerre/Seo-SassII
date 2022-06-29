@@ -10,7 +10,6 @@
     object-fit: cover;
 }
 
-
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 30vw);
@@ -91,5 +90,8 @@
 
 .nombreEstilo6 {
     grid-area: nombreEstilo6;
-    @include titulosEstilos
+    @include titulosEstilos;
+    & h2 {
+        margin: $espacioH2;
+    }
 }
