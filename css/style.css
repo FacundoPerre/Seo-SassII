@@ -55,7 +55,7 @@
 .fondo {
   background-color: black; }
 
-.grid {
+.gridNosotros {
   display: grid;
   grid-template-columns: repeat(4, 25vw);
   gap: 0px 0px;
@@ -93,7 +93,7 @@
   height: 1000px; }
 
 @media (max-width: 425px) {
-  .grid {
+  .gridNosotros {
     display: grid;
     grid-template-columns: repeat(4, 25vw);
     gap: 0px 0px;
