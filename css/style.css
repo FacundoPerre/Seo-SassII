@@ -277,28 +277,86 @@ form .btn {
   border-radius: 0.1rem;
   box-shadow: 0.2rem 0.2rem 1rem #222; }
 
-.gridGaleria {
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
+  grid-template-columns: repeat(3, 30vw);
   grid-auto-flow: row;
-  grid-template-areas: "Trimmed-Beard Ducktail Beardstache" "Garibaldi-Beard Beard-Fade Bandholz"; }
-
-.Trimmed-Beard {
-  grid-area: Trimmed-Beard; }
-
-.Ducktail {
-  grid-area: Ducktail; }
+  grid-template-areas: "nombreEstilo nombreEstilo1 nombreEstilo3" "TrimmedBeard Ducktail Beardstache" "nombreEstilo4 nombreEstilo5 nombreEstilo6" "GaribaldiBeard BeardFade Bandholz"; }
 
 .Beardstache {
   grid-area: Beardstache; }
+  .Beardstache img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
 
-.Garibaldi-Beard {
-  grid-area: Garibaldi-Beard; }
+.Ducktail {
+  grid-area: Ducktail; }
+  .Ducktail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
 
-.Beard-Fade {
-  grid-area: Beard-Fade; }
+.GaribaldiBeard {
+  grid-area: GaribaldiBeard; }
+  .GaribaldiBeard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.BeardFade {
+  grid-area: BeardFade; }
+  .BeardFade img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
 
 .Bandholz {
   grid-area: Bandholz; }
+  .Bandholz img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.TrimmedBeard {
+  grid-area: TrimmedBeard; }
+  .TrimmedBeard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.nombreEstilo {
+  grid-area: nombreEstilo;
+  text-align: center;
+  color: white;
+  text-align: auto; }
+
+.nombreEstilo1 {
+  grid-area: nombreEstilo1;
+  text-align: center;
+  color: white;
+  text-align: auto; }
+
+.nombreEstilo3 {
+  grid-area: nombreEstilo3;
+  text-align: center;
+  color: white;
+  text-align: auto; }
+
+.nombreEstilo4 {
+  grid-area: nombreEstilo4;
+  text-align: center;
+  color: white;
+  text-align: auto; }
+
+.nombreEstilo5 {
+  grid-area: nombreEstilo5;
+  text-align: center;
+  color: white;
+  text-align: auto; }
+
+.nombreEstilo6 {
+  grid-area: nombreEstilo6;
+  text-align: center;
+  color: white;
+  text-align: auto; }
