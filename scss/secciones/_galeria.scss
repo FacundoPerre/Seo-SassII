@@ -2,17 +2,22 @@
     text-align: center;
     color: white;
     text-align: auto;
+    border: solid white 1px;
+    // background-color: grey;
 }
 
 @mixin imagenesGrid {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    gap: 1px;
+    height: 40vw;
+    border: solid white 1px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 30vw);
+    grid-template-columns: repeat(3, 33vw);
     grid-auto-flow: row;
     grid-template-areas:
         "nombreEstilo nombreEstilo1 nombreEstilo3"
@@ -23,74 +28,102 @@
 
 .Beardstache {
     grid-area: Beardstache;
-    & img{
+
+    & img {
         @include imagenesGrid;
     }
 }
 
+
 .Ducktail {
     grid-area: Ducktail;
-    & img{
+
+    & img {
         @include imagenesGrid;
     }
 }
 
 .GaribaldiBeard {
     grid-area: GaribaldiBeard;
-    & img{
+
+    & img {
         @include imagenesGrid;
     }
 }
 
 .BeardFade {
     grid-area: BeardFade;
-    & img{
+
+    & img {
         @include imagenesGrid;
     }
 }
 
 .Bandholz {
     grid-area: Bandholz;
-    & img{
+
+    & img {
         @include imagenesGrid;
     }
 }
 
 .TrimmedBeard {
     grid-area: TrimmedBeard;
-    & img{
+
+    & img {
         @include imagenesGrid;
     }
 }
 
 .nombreEstilo {
     grid-area: nombreEstilo;
-    @include titulosEstilos
+    @include titulosEstilos;
+
+    & h2 {
+        margin: $espacioH2;
+    }
 }
 
 .nombreEstilo1 {
     grid-area: nombreEstilo1;
-    @include titulosEstilos
+    @include titulosEstilos;
+
+    & h2 {
+        margin: $espacioH2;
+    }
 }
 
 .nombreEstilo3 {
     grid-area: nombreEstilo3;
-    @include titulosEstilos
+    @include titulosEstilos;
+
+    & h2 {
+        margin: $espacioH2;
+    }
 }
 
 .nombreEstilo4 {
     grid-area: nombreEstilo4;
-    @include titulosEstilos
+    @include titulosEstilos;
+
+    & h2 {
+        margin: $espacioH2;
+    }
 }
 
 .nombreEstilo5 {
     grid-area: nombreEstilo5;
-    @include titulosEstilos
+    @include titulosEstilos;
+
+    & h2 {
+        margin: $espacioH2;
+    }
 }
 
 .nombreEstilo6 {
     grid-area: nombreEstilo6;
     @include titulosEstilos;
+
     & h2 {
         margin: $espacioH2;
     }
