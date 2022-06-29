@@ -6,3 +6,6 @@
 5. Cada vez que se quiera seguir compilando en SASSa. abrir la consola con ctrl+ñb. npm run watch-css//FIN
 
 
+Aplicando Seo:
+
+Cree cada etiqueta de keywords pensando en las descripciones de cada pagina del sitio, a su vez tambien cree cada descrpcion para cada pagina.
